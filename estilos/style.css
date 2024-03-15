@@ -34,8 +34,10 @@ section.dentro {
     transform: translate(-50%, -50%);
     overflow: hidden;
     border-radius: 10px;
-
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.596);
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 section.dentro > div#img {
