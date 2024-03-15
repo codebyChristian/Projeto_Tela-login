@@ -12,6 +12,11 @@
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #402A1D, #D9B6A3);
+    }
+
     section.dentro{
         width: 80vw;
     }
@@ -29,7 +34,24 @@
     
 }
 
+@media screen and (min-width: 992px) and (max-width: 1800px) {
 
+    body {
+        background-image: linear-gradient(to top, #402A1D, #D9B6A3);
+    }
+
+    section.dentro {
+        width: 900px;
+
+    }
+
+    section.dentro > div#img {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    
+}
 
 
 
