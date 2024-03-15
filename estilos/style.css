@@ -9,11 +9,11 @@
 
 :root {
     --cor_fundo: rgb(0, 68, 124);
+    --cor_fundo-menores: #A67D65;
 }
 
 body, html {
-    background-color: var(--cor_fundo);
-    background: url('../imagens/wood-blackground.jpg');
+    background-color: var(--cor_fundo-menores);
     height: 100vh;
     width: 100vw;
 }
@@ -42,7 +42,7 @@ section.dentro {
 
 section.dentro > div#img {
     display: block;
-    background: var(--cor_fundo) url(../imagens/wall-paper.jpg) no-repeat;
+    background: var(--cor_fundo) url(../imagens/wood-blackground.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: center center;
