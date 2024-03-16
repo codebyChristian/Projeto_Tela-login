@@ -19,17 +19,16 @@
             </div>
             
             <div id="formulario">
-                <form action="login.php" method="post">
                     <h1>Faça login</h1>
                     <p>Bem-vindo à nossa plataforma! Para acessar nossos serviços, insira seu email e senha abaixo. Estamos felizes em tê-lo(a) conosco!</p>
-                    <div class="login-user">
-                        <label for="iemail"><img class="img-login-user" src="imagens/perfil-de-usuario.png" alt="Foto de usuário">
-                        </label>
+                <form action="login.php" method="post">
+                    <div class="login-user">                     
                         <input type="email" name="email" id="iemail" placeholder="Digite seu email" required>
+                        <label for="iemail"> Login</label>
                     </div>
-                    <div class="login-user">
-                        <label for="isenha"><img src="imagens/senha.png" alt="Foto de cadeado"></label>
+                    <div class="login-user">               
                         <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required>
+                        <label for="isenha"> Senha </label>
                     </div>
                     <div class="enter-user">
                         <input type="submit" value="Entrar">
