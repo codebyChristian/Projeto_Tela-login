@@ -10,6 +10,10 @@
 :root {
     --cor_fundo: rgb(0, 68, 124);
     --cor_fundo-menores: #A67D65;
+    --cor_back-butao: #755e43;
+    --cor_back-butao-dark: #3E362E;
+    --cor_back-botao-clara: #E8A95E;
+    --cor_back-campo-login: #36A8A8;
 }
 
 body, html {
@@ -60,5 +64,59 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    font-size: 0.5em;
+}
+
+div.login-user > label {
+    display: none;
+}
+
+form > div.login-user {
+    background-color: var(--cor_back-campo-login);
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    margin: 5px 0px;
+}
+
+form > input[type=submit] {
+    display: block;
     font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor_back-butao);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor_back-butao-dark);
+
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 9px;
+    margin-top: 5px;
+    background-color: white;
+    color: var(--cor_back-butao-dark);
+    border: 1px solid var(--cor_back-butao-dark);
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+
+form > a.botao:hover {
+    background-color: var(--cor_back-botao-clara);
+}
+
+form > a.botao > span {
+    font-size: 0.8em;
 }
