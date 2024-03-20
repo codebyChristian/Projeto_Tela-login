@@ -19,6 +19,7 @@
 
     section.dentro{
         width: 80vw;
+        height: 300px;
     }
 
     section.dentro > div#img {
@@ -42,7 +43,7 @@
 
     section.dentro {
         width: 900px;
-
+        height: 330px;
     }
 
     section.dentro > div#img {
@@ -61,7 +62,8 @@
     }
 
     div#formulario > p {
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
     
 }

@@ -35,13 +35,12 @@ section.dentro {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.596);
-
     transition: width .5s, height .5s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section.dentro > div#img {
@@ -82,9 +81,9 @@ div.login-user > input {
     background-color: var(--cor_back-botao-clara);
     height: 100%;
     width: calc(100% - 44px);
-    transform: translateY(-15px);
     border-radius: 8px;
     border: 0px;
+    transform: translateY(-15px);
 }
 
 div.login-user > input:focus-within {
