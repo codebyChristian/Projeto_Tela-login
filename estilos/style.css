@@ -63,7 +63,7 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
-    font-size: 0.5em;
+    font-size: 1em;
 }
 
 div.login-user > label {
@@ -88,6 +88,11 @@ div.login-user > input {
 
 div.login-user > input:focus-within {
     background-color: white;
+    outline: none;
+}
+
+div.login-user > input::placeholder {
+    padding-left: 5px;
 }
 
 form > div.login-user {

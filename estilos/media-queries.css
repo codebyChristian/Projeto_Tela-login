@@ -24,13 +24,23 @@
 
     section.dentro > div#img {
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
     }
 
     section.dentro > div#formulario {
         float: right;
-        width: 70%;
+        width: 60%;
+    }
+
+    div#formulario > p {
+        font-size: 1.1em;
+        margin: 12px 0px;
+    }
+
+    div.login-user > input::placeholder {
+        padding-left: 8px;
+        font-weight: bolder;
     }
     
 }
@@ -62,8 +72,13 @@
     }
 
     div#formulario > p {
-        font-size: 1em;
+        font-size: 1.2em;
         margin: 20px 0px;
+    }
+
+    div.login-user > input::placeholder {
+        padding-left: 8px;
+        font-weight: bolder;
     }
     
 }
