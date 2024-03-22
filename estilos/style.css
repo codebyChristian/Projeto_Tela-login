@@ -16,6 +16,11 @@
     --cor_back-campo-login: #36A8A8;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 body, html {
     background-color: var(--cor_fundo-menores);
     height: 100vh;
